@@ -16,3 +16,7 @@ First we need some users which can perform their respective tasks.
 - Students
 
 After creating the users convert the users of teachers to instructers by creating the new instructors. 
+
+<p align="center">
+  <img src="img/" />
+</p>
