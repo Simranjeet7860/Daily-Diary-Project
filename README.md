@@ -24,13 +24,13 @@ First we need some users which can perform their respective tasks.
 ### - After creating the instructers, create the subjects(courses) which are students study in their class.
 
 <p align="center">
-  <img src="images/2.png" />
+  <img src="img/2.png" />
 </p>
 
 ### - After creating the subjects, crete the different classes in which students study.
 
 <p align="center">
-  <img src="images/3.png" />
+  <img src="img/3.png" />
 </p>
 
 ### - After creating the users,instructers,programs and courses. Create a doctype in which all the teachers add their daily diaries.
@@ -44,13 +44,13 @@ First we need some users which can perform their respective tasks.
 - Homework
 
 <p align="center">
-  <img src="images/5.png" />
+  <img src="img/5.png" />
 </p>
 
 ### In this doctype all the techers add their daily diary work.
 
 <p align="center">
-  <img src="images/5.png" />
+  <img src="img/5.png" />
 </p>
 
 ### For the student view as the student doesn't have desk access so create a web form for the students.
@@ -130,6 +130,9 @@ context.maintenances = frappe.db.sql(f" select d.date,d.course, d.description,d.
 
 - After this the student only see their own class daily diary.
 
+<p align="center">
+  <img src="img/6.png" />
+</p>
 
 
 
