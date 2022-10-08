@@ -7,3 +7,12 @@ Framework Used:- Frappe Framework
 The User who is creting this system have access to create the web-page, users,instructors, program and courses.
 
 ## ***Steps to Create the daily diary system***
+
+First we need some users which can perform their respective tasks. 
+
+### List of different users we required
+
+- Teachers
+- Students
+
+After creating the users convert the users of teachers to instructers by creating the new instructors. 
