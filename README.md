@@ -28,7 +28,7 @@ First we need some users which can perform their respective tasks.
 
 ### - After creating the instructers, create the subjects(courses) which are students study in their class.
 
-
+ 
 <p align="center">
   <img src="img/2.png" />
 </p>
