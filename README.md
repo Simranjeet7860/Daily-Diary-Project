@@ -1,18 +1,20 @@
 # Daily-Diary-Project
-In this I create a daily diary system in the frappe framework in which techers of school add their daily diary or daily progress according to different classes. The students also see their daily homework and daily classwork.
 
-## Prerequisite for this Work
+In this I create a daily diary system in the frappe framework where techers of school add their daily diary or daily progress according to different classes. The students can also see their daily homework and daily classwork.
+
+### Prerequisite for this Work -
+
 Framework Used:- Frappe Framework
 
 The User who is creting this system have access to create the web-page, users,instructors,doctype,program and courses.
 
-## ***Steps to Create the daily diary system***
+### Steps to Create the daily diary system -
 
 
 First we need some users which can perform their respective tasks. 
 
 
-### List of different users we required
+### List of different users we required -
 
 - Teachers
 - Students
@@ -26,7 +28,7 @@ First we need some users which can perform their respective tasks.
 </p>
 
 
-### - After creating the instructers, create the subjects(courses) which are students study in their class.
+### - After creating the instructers, create the subjects(courses) which students are study in their class.
 
  
 <p align="center">
@@ -34,7 +36,7 @@ First we need some users which can perform their respective tasks.
 </p>
 
 
-### - After creating the subjects, crete the different classes in which students study.
+### - After creating the subjects, create the different classes in which students are studying.
 
 
 <p align="center">
@@ -136,7 +138,7 @@ feather-search">
 ```
 
 
-##### - As we are fetching the data from the backend which is stored in the "tabDaily Diary"(Doctype created). We need that the login student only see their class daily diary. So for this I write a query which is written in the context script in the web-page.
+### As we are fetching the data from the backend which is stored in the "tabDaily Diary"(Doctype created). We need that the login student only see their class daily diary. So for this I write a query which is written in the context script in the web-page.
 
 
 ```
@@ -146,7 +148,7 @@ context.maintenances = frappe.db.sql(f" select d.date,d.course, d.description,d.
 ```
 
 
-- After this the student only see their own class daily diary.
+### After this the student only see their own class daily diary.
 
 
 <p align="center">
